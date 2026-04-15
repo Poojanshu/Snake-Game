@@ -25,7 +25,7 @@ A classic Snake Game built with HTML, CSS, and JavaScript — fully playable in 
 
 ## 🌐 Live Demo
 
-[Play here](https://poojanshu.github.io/Snake-Game)
+[Play here](https://poojanshu.github.io/Snake-Game/)
 
 ## 👨‍💻 Author
 
