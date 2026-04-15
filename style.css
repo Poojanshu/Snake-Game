@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Background */
+body{
+    background: url("../js/snakebg.png") no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Game board */
+.board{
+    background: linear-gradient(#a8e063, #56ab2f);
+    width: 90vmin;
+    height: 90vmin;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+
+/* Snake head */
+.head{
+    background: linear-gradient(red, darkred);
+    border-radius: 6px;
+    box-shadow: 0 0 8px red;
+}
+
+/* Snake body */
+.snake{
+    background: linear-gradient(purple, indigo);
+    border: .25vmin solid white;
+    border-radius: 4px;
+    box-shadow: 0 0 5px purple;
+}
+
+/* Food */
+.food{
+    background: linear-gradient(red, purple);
+    border : .25vmin solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 8px red;
+}
+
+/* Score Board */
+#scoreBox{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+/* Game Over Box */
+#gameOverBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 25px 50px;
+    text-align: center;
+    border-radius: 12px;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+
+    display: none;
+}
+
+/* Button */
+#gameOverBox button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background: #56ab2f;
+    color: white;
+    font-size: 16px;
+}
+
+#gameOverBox button:hover{
+    background: #3d8b1f;
+}
