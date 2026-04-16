@@ -15,11 +15,6 @@ A classic Snake Game built with HTML, CSS, and JavaScript — fully playable in 
 - CSS3
 - Vanilla JavaScript
 
-## Screenshots
-
-![Game Screenshot](images/GameStart.png.png)
-
-
 ## 🚀 Getting Started
 
 1. Clone the repository:
